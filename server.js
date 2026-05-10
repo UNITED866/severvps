@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // Kết nối tới MongoDB Atlas
-const MONGO_URI = "mongodb+srv://VanHiep:hzetnz212@cluster0.wessae.mongodb.net/VanHiepMod?retryWrites=true&w=majority";
+const MONGO_URI = "mongodb+srv://VanHiep:hzetnz212@cluster0.d6zunjj.mongodb.net/VanHiepMod?retryWrites=true&w=majority";
 
 mongoose.connect(MONGO_URI)
     .then(() => console.log("✅ Đã kết nối MongoDB thành công!"))
